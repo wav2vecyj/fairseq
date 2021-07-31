@@ -16,7 +16,7 @@ Exaplantion and example of each of the argument for the above bash script is men
 
 ### About the Bash Script
 
-The below table explains all the steps this pipeline does, and also mentions where the code is taken from 
+The below table explains all the steps that this pipeline does, and also mentions where the code is taken from. 
 | Step | What it does | Code Reference |
 |-------|-------------|----------------|
 |1| Detects the segments in the long wav file, where voice activity is present, and dumps all the voice segments into a specific folder | py-webrtcvad |
