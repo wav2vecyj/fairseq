@@ -8,7 +8,7 @@ Exaplantion and example of each of the argument for the above bash script is men
 ### About Input Arguments
 |Argument|Meaning|Example|
 |--------|-------|--------|
-|<wav_file> | Absolute path of the wav file you want the transcript for. Please make sure that the wav file has 16000 sample rate, and is encoded in pcm_sle16 format. | /home/ubuntu/sample.wav|
+|<wav_file> | Absolute path of the wav file you want the transcript for. Please make sure that the wav file has 16000 sample rate, is a mono-channel audio and is encoded in pcm_sle16 format. | /home/ubuntu/sample.wav|
 |<wav_file_id> | Any unique identifier string for the wav file | example: sample |
 |<wav2vec2_model_path| Absolute path of the fine-tuned wav2vec2 model | /home/ubuntu/wav2vec2.pt |
 |<kenlm_model_path> | Absolute path of apporpriate kenlm language model used for wav2vec2 | /home/ubuntu/kenlm.bin |
